@@ -1,0 +1,19 @@
+
+> cv-release@0.1.0 dev
+> next dev --port 3000
+
+   ▲ Next.js 15.5.18
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.1.8:3000
+   - Environments: .env
+
+ ✓ Starting...
+ ✓ Ready in 1791ms
+ ○ Compiling / ...
+ ✓ Compiled /api/generate in 2.5s (553 modules)
+ GET / 200 in 2879ms
+ POST /api/generate 200 in 3003ms
+ GET / 200 in 41ms
+ POST /api/generate 200 in 1667ms
+ GET / 200 in 42ms
+ POST /api/generate 200 in 1820ms
