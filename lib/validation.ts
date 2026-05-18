@@ -1,5 +1,10 @@
 import type { FinalResume, GenerateRequest, GeneratedResumeOutput } from "@/lib/types";
 
+export const MAX_LINKEDIN_DATA_CHARS = 40000;
+export const MAX_JOB_DESCRIPTION_CHARS = 30000;
+export const MAX_JOB_URL_CHARS = 2048;
+export const MAX_GENERATE_BODY_CHARS = 90000;
+
 const emptyContact = {
   name: "Nome não fornecido",
   title: "Título profissional não fornecido",
@@ -29,16 +34,73 @@ export function parseGenerateRequest(value: unknown): GenerateRequest {
   if (linkedinData.length < 20) {
     throw new Error("Informe dados do LinkedIn com pelo menos 20 caracteres.");
   }
+  if (linkedinData.length > MAX_LINKEDIN_DATA_CHARS) {
+    throw new Error(`Os dados do LinkedIn devem ter no máximo ${MAX_LINKEDIN_DATA_CHARS} caracteres.`);
+  }
+
+  const jobDescription = asString(body.jobDescription).trim();
+  if (jobDescription.length > MAX_JOB_DESCRIPTION_CHARS) {
+    throw new Error(`A descrição da vaga deve ter no máximo ${MAX_JOB_DESCRIPTION_CHARS} caracteres.`);
+  }
+
+  const jobUrl = asString(body.jobUrl).trim();
+  if (jobUrl.length > MAX_JOB_URL_CHARS) {
+    throw new Error("A URL da vaga é muito longa.");
+  }
 
   const language = body.language === "en" ? "en" : "pt-BR";
 
   return {
     linkedinData,
-    jobDescription: asString(body.jobDescription).trim(),
-    jobUrl: asString(body.jobUrl).trim(),
+    jobDescription,
+    jobUrl,
     language
   };
 }
+
+const projectSchema = {
+  type: "object",
+  additionalProperties: false,
+  required: ["name", "description", "technologies", "link"],
+  properties: {
+    name: { type: "string" },
+    description: { type: "string" },
+    technologies: { type: "array", items: { type: "string" } },
+    link: { type: "string" }
+  }
+} as const;
+
+const educationSchema = {
+  type: "object",
+  additionalProperties: false,
+  required: ["degree", "institution", "period"],
+  properties: {
+    degree: { type: "string" },
+    institution: { type: "string" },
+    period: { type: "string" }
+  }
+} as const;
+
+const certificationSchema = {
+  type: "object",
+  additionalProperties: false,
+  required: ["name", "issuer", "year"],
+  properties: {
+    name: { type: "string" },
+    issuer: { type: "string" },
+    year: { type: "string" }
+  }
+} as const;
+
+const languageSchema = {
+  type: "object",
+  additionalProperties: false,
+  required: ["name", "level"],
+  properties: {
+    name: { type: "string" },
+    level: { type: "string" }
+  }
+} as const;
 
 export const resumeJsonSchema = {
   type: "object",
@@ -104,10 +166,10 @@ export const resumeJsonSchema = {
             }
           }
         },
-        projects: { type: "array", items: { type: "object" } },
-        education: { type: "array", items: { type: "object" } },
-        certifications: { type: "array", items: { type: "object" } },
-        languages: { type: "array", items: { type: "object" } }
+        projects: { type: "array", items: projectSchema },
+        education: { type: "array", items: educationSchema },
+        certifications: { type: "array", items: certificationSchema },
+        languages: { type: "array", items: languageSchema }
       }
     },
     improvementsMade: { type: "array", items: { type: "string" } },

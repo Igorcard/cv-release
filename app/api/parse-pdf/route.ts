@@ -1,10 +1,26 @@
 import { NextResponse } from "next/server";
+import { checkRateLimit, getClientKey } from "@/lib/rate-limit";
 import pdf from "pdf-parse";
 
 export const runtime = "nodejs";
 
+const MAX_PDF_BYTES = 5 * 1024 * 1024;
+
 export async function POST(request: Request) {
   try {
+    const rateLimit = checkRateLimit(`parse-pdf:${getClientKey(request)}`, 30, 60 * 60 * 1000);
+    if (!rateLimit.allowed) {
+      return NextResponse.json(
+        { error: "Muitas solicitações. Tente novamente mais tarde." },
+        { status: 429, headers: { "Retry-After": String(rateLimit.retryAfter) } }
+      );
+    }
+
+    const contentLength = Number(request.headers.get("content-length") ?? 0);
+    if (contentLength > MAX_PDF_BYTES + 1024 * 1024) {
+      return NextResponse.json({ error: "O PDF deve ter no máximo 5 MB." }, { status: 413 });
+    }
+
     const formData = await request.formData();
     const file = formData.get("file");
 
@@ -16,7 +32,7 @@ export async function POST(request: Request) {
       return NextResponse.json({ error: "O arquivo precisa estar em PDF." }, { status: 400 });
     }
 
-    if (file.size > 5 * 1024 * 1024) {
+    if (file.size > MAX_PDF_BYTES) {
       return NextResponse.json({ error: "O PDF deve ter no máximo 5 MB." }, { status: 400 });
     }
 
