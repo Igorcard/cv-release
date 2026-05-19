@@ -19,6 +19,8 @@ This repository includes product, agent and architecture documentation for build
 - `ARCHITECTURE.md`: recommended technical structure.
 - `TASK.md`: current task and next actions.
 
+> TODO: Update `docs/USER.md` with the real user's context, preferences and collaboration needs before using it as agent context.
+
 ## Recommended Folder Structure
 
 ```text
