@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MatchAnalysis",
+  "type": "object",
+  "required": ["overall_match", "requirement_matches", "selected_context_chunks", "gaps"],
+  "properties": {
+    "overall_match": { "type": "number", "minimum": 0, "maximum": 100 },
+    "requirement_matches": { "type": "array" },
+    "selected_context_chunks": { "type": "array" },
+    "gaps": { "type": "array" }
+  },
+  "additionalProperties": true
+}

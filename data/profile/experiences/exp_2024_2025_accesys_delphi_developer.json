@@ -1,0 +1,22 @@
+{
+  "experience_id": "exp_2024_2025_accesys_delphi_developer",
+  "company": "Accesys Solutions",
+  "title": "Desenvolvedor Delphi",
+  "start_date": "2024-04",
+  "end_date": "2025-04",
+  "location": "Monte Alto, Sao Paulo, Brasil",
+  "employment_type": "not_provided",
+  "summary": "Delphi development role. The About section mentions maintenance and improvement of legacy systems, database implementations and process optimization solutions.",
+  "responsibilities": [
+    {
+      "text": "Maintained and improved Delphi systems.",
+      "skills": ["Delphi", "legacy_systems"],
+      "source": "data/profile/base/resume.raw.md#about"
+    }
+  ],
+  "achievements": [],
+  "technologies": ["Delphi"],
+  "domains": ["legacy_systems", "process_optimization"],
+  "source_confidence": 0.82,
+  "requires_user_confirmation": ["specific_systems", "database_engine", "impact_metrics"]
+}

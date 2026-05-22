@@ -1,0 +1,6 @@
+models:
+  normalize_resume: gpt-5.5
+  job_analysis: gpt-5.5
+  matching: gpt-5.5
+  generation: gpt-5.5
+  validation: gpt-5.5

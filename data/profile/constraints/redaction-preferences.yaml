@@ -1,0 +1,14 @@
+redaction_preferences:
+  candidate_id: igor-cardoso-francolin
+  public_outputs:
+    include_email: true
+    include_linkedin: true
+    include_github: true
+    include_phone: false
+  private_outputs:
+    include_email: true
+    include_linkedin: true
+    include_github: true
+    include_phone: false
+  notes:
+    - Phone number was not provided by the LinkedIn source.

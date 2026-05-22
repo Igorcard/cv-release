@@ -1,0 +1,16 @@
+# {{candidate.name}}
+
+{{sections.summary.text}}
+
+## Skills
+{{#each sections.skills}}
+- {{this}}
+{{/each}}
+
+## Experience
+{{#each sections.experience}}
+### {{title}} - {{company}}
+{{#each bullets}}
+- {{text}}
+{{/each}}
+{{/each}}

@@ -1,0 +1,17 @@
+sections:
+  required:
+    - Summary
+    - Skills
+    - Experience
+  optional:
+    - Projects
+    - Education
+    - Certifications
+    - Languages
+keywords:
+  max_repetition_per_keyword: 5
+  require_contextual_usage: true
+format:
+  avoid_tables: true
+  avoid_images_for_text: true
+  require_selectable_text: true

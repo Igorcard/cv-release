@@ -1,0 +1,16 @@
+{
+  "experience_id": "exp_2023_2024_accesys_it_support_intern",
+  "company": "Accesys Solutions",
+  "title": "Estagiario De Suporte De Informatica",
+  "start_date": "2023-07",
+  "end_date": "2024-02",
+  "location": "Monte Alto, Sao Paulo, Brasil",
+  "employment_type": "internship",
+  "summary": "IT support internship in the Engineering and Technical department.",
+  "responsibilities": [],
+  "achievements": [],
+  "technologies": [],
+  "domains": ["it_support", "technical_support"],
+  "source_confidence": 0.78,
+  "requires_user_confirmation": ["support_scope", "tools_used"]
+}

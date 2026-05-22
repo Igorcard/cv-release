@@ -1,0 +1,28 @@
+{
+  "candidate_id": "igor-cardoso-francolin",
+  "source": {
+    "type": "linkedin_public_profile",
+    "url": "https://www.linkedin.com/in/igor-cardoso-francolin/",
+    "captured_at": "2026-05-22",
+    "raw_file": "data/profile/base/resume.raw.md"
+  },
+  "identity_file": "data/profile/base/personal-info.json",
+  "summary_file": "data/profile/base/professional-summary.md",
+  "experience_files": [
+    "data/profile/experiences/exp_2025_present_accesys_backend_developer.json",
+    "data/profile/experiences/exp_2024_2025_accesys_delphi_developer.json",
+    "data/profile/experiences/exp_2024_accesys_technical_support.json",
+    "data/profile/experiences/exp_2023_2024_accesys_it_support_intern.json",
+    "data/profile/experiences/exp_2023_senai_intern.json"
+  ],
+  "project_files": [
+    "data/profile/projects/project_weatherapi.json",
+    "data/profile/projects/project_toughts.json",
+    "data/profile/projects/project_ponto_de_venda.json"
+  ],
+  "truth_notes": [
+    "Do not treat LinkedIn activity as professional evidence.",
+    "Do not infer seniority beyond title and dates.",
+    "Do not invent impact metrics."
+  ]
+}

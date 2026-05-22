@@ -1,0 +1,16 @@
+{
+  "experience_id": "exp_2024_accesys_technical_support",
+  "company": "Accesys Solutions",
+  "title": "Suporte Tecnico",
+  "start_date": "2024-02",
+  "end_date": "2024-04",
+  "location": "Monte Alto, Sao Paulo, Brasil",
+  "employment_type": "not_provided",
+  "summary": "Technical support role in the Engineering and Technical department.",
+  "responsibilities": [],
+  "achievements": [],
+  "technologies": [],
+  "domains": ["technical_support"],
+  "source_confidence": 0.78,
+  "requires_user_confirmation": ["support_scope", "tools_used", "ticket_volume"]
+}

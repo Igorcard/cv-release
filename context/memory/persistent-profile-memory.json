@@ -1,0 +1,9 @@
+{
+  "candidate_id": "igor-cardoso-francolin",
+  "stable_preferences": {
+    "primary_positioning": "backend Node.js/API developer",
+    "secondary_positioning": "Delphi/legacy systems developer",
+    "truth_policy": "do not invent metrics or seniority"
+  },
+  "needs_confirmation": ["languages", "skill levels", "impact metrics", "phone", "preferred resume language"]
+}

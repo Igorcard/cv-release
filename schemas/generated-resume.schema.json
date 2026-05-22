@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GeneratedResume",
+  "type": "object",
+  "required": ["generated_resume_id", "target_job_id", "candidate", "sections"],
+  "properties": {
+    "generated_resume_id": { "type": "string" },
+    "target_job_id": { "type": "string" },
+    "candidate": { "type": "object" },
+    "sections": { "type": "object" }
+  },
+  "additionalProperties": true
+}

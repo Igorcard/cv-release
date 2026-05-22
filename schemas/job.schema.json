@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Job",
+  "type": "object",
+  "required": ["job_id", "source", "requirements"],
+  "properties": {
+    "job_id": { "type": "string" },
+    "source": { "type": "object" },
+    "requirements": { "type": "object" }
+  },
+  "additionalProperties": true
+}

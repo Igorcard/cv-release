@@ -1,0 +1,17 @@
+{
+  "candidate_id": "igor-cardoso-francolin",
+  "target": "default_backend_node_api_resume",
+  "strategy": "Select identity, career summary, current backend role, backend skills and strongest Node.js API projects. Add Delphi only if the target job asks for Delphi, desktop or legacy systems.",
+  "selected_chunks": [
+    "profile_identity",
+    "career_summary",
+    "exp_accesys_backend",
+    "skills_backend_node_sql",
+    "project_weatherapi",
+    "project_toughts"
+  ],
+  "excluded_by_default": [
+    "exp_accesys_support_track",
+    "exp_senai_intern"
+  ]
+}

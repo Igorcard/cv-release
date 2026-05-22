@@ -1,0 +1,11 @@
+generation_preferences:
+  candidate_id: igor-cardoso-francolin
+  default_language: pt-BR
+  alternate_language: en
+  default_template: ats-simple
+  max_pages: 2
+  tone: direct, factual, backend-focused
+  avoid:
+    - invented metrics
+    - seniority upgrade
+    - social activity as evidence

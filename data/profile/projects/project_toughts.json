@@ -1,0 +1,14 @@
+{
+  "project_id": "project_toughts",
+  "name": "Toughts",
+  "start_date": "2025-05",
+  "end_date": "2025-05",
+  "associated_experience_ids": [],
+  "description": "Web project using Node.js, Express, Sequelize, Handlebars, bcryptjs, express-session, session-file-store and connect-flash.",
+  "role": "Web developer",
+  "technologies": ["Node.js", "Express.js", "Sequelize", "Handlebars", "bcryptjs", "express-session", "session-file-store", "connect-flash"],
+  "outcomes": [],
+  "relevance_tags": ["backend", "web", "authentication", "sessions"],
+  "source_confidence": 0.84,
+  "requires_user_confirmation": ["repository_url", "database_engine", "deployment_url"]
+}

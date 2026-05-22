@@ -1,0 +1,16 @@
+soft_skills:
+  - name: problem-solving
+    level: unknown
+    evidence_ids:
+      - profile:about
+    notes: Mentioned in About; do not overstate without examples.
+  - name: teamwork
+    level: unknown
+    evidence_ids:
+      - profile:about
+    notes: Mentioned in About; requires concrete examples before strong resume claims.
+  - name: agile delivery
+    level: unknown
+    evidence_ids:
+      - profile:about
+    notes: Mentioned as delivering agile solutions; methodology details not provided.

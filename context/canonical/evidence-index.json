@@ -1,0 +1,46 @@
+{
+  "candidate_id": "igor-cardoso-francolin",
+  "evidence": [
+    {
+      "evidence_id": "ev_backend_node_express_apis",
+      "canonical_claim": "Develops APIs and integrations using Node.js and Express.js.",
+      "source_ids": ["experience:exp_2025_present_accesys_backend_developer"],
+      "allowed_variants": [
+        "Built backend APIs with Node.js and Express.js.",
+        "Developed API integrations using Node.js and Express.js."
+      ],
+      "risk_level": "low"
+    },
+    {
+      "evidence_id": "ev_delphi_legacy_systems",
+      "canonical_claim": "Maintains and improves Delphi systems.",
+      "source_ids": ["experience:exp_2024_2025_accesys_delphi_developer"],
+      "allowed_variants": [
+        "Maintained Delphi legacy systems.",
+        "Improved Delphi desktop applications."
+      ],
+      "risk_level": "medium",
+      "requires_user_confirmation": ["specific systems", "impact"]
+    },
+    {
+      "evidence_id": "ev_weatherapi_node_project",
+      "canonical_claim": "Created WeatherApi using Node.js, Express.js, Joi, Helmet, Axios and OpenWeatherMap integration.",
+      "source_ids": ["project:project_weatherapi"],
+      "allowed_variants": [
+        "Built a weather API integrated with OpenWeatherMap.",
+        "Implemented a Node.js/Express weather API with validation and security middleware."
+      ],
+      "risk_level": "low"
+    },
+    {
+      "evidence_id": "ev_pdv_delphi_mysql_project",
+      "canonical_claim": "Created a basic POS project with Delphi, MySQL, FireDAC and .ini file handling.",
+      "source_ids": ["project:project_ponto_de_venda"],
+      "allowed_variants": [
+        "Built a Delphi POS prototype connected to MySQL.",
+        "Implemented database connectivity with FireDAC in a Delphi POS project."
+      ],
+      "risk_level": "low"
+    }
+  ]
+}

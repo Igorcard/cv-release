@@ -1,0 +1,12 @@
+retrieval:
+  default_profile: backend_node_apis
+  max_chunks: 8
+  require_source_map: true
+  scoring_weights:
+    requirement_match: 0.35
+    skill_match: 0.20
+    domain_match: 0.15
+    seniority_match: 0.10
+    evidence_strength: 0.10
+    recency: 0.05
+    keyword_coverage: 0.05

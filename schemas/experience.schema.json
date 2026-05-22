@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Experience",
+  "type": "object",
+  "required": ["experience_id", "company", "title", "start_date", "summary", "responsibilities", "achievements", "technologies", "domains", "source_confidence"],
+  "properties": {
+    "experience_id": { "type": "string" },
+    "company": { "type": "string" },
+    "title": { "type": "string" },
+    "start_date": { "type": "string" },
+    "end_date": { "type": ["string", "null"] },
+    "responsibilities": { "type": "array" },
+    "achievements": { "type": "array" },
+    "technologies": { "type": "array", "items": { "type": "string" } },
+    "domains": { "type": "array", "items": { "type": "string" } },
+    "source_confidence": { "type": "number", "minimum": 0, "maximum": 1 }
+  },
+  "additionalProperties": true
+}

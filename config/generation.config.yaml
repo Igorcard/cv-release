@@ -1,0 +1,13 @@
+default_language: pt-BR
+default_template: ats-simple
+max_pages: 2
+summary:
+  min_lines: 3
+  max_lines: 5
+experience:
+  max_bullets_recent: 5
+  max_bullets_older: 3
+truth_policy:
+  require_source_ids: true
+  allow_inferred_soft_skills: false
+  allow_generated_metrics: false

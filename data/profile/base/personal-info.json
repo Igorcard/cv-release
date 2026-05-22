@@ -1,0 +1,17 @@
+{
+  "candidate_id": "igor-cardoso-francolin",
+  "name": "Igor Cardoso",
+  "headline": "Developer | Node.js | SQL",
+  "location": {
+    "city": "Monte Alto",
+    "state": "Sao Paulo",
+    "country": "Brazil"
+  },
+  "contacts": {
+    "email": "igorcardosofrancolin@outlook.com",
+    "linkedin": "https://www.linkedin.com/in/igor-cardoso-francolin/",
+    "github": "https://github.com/Igorcard"
+  },
+  "source_ids": ["source:linkedin_profile_igor_cardoso"],
+  "requires_user_confirmation": ["phone", "languages", "preferred_resume_language"]
+}

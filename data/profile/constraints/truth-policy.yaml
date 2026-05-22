@@ -1,0 +1,21 @@
+truth_policy:
+  candidate_id: igor-cardoso-francolin
+  require_source_ids: true
+  allow_inferred_soft_skills: false
+  allow_generated_metrics: false
+  allow_seniority_upgrade: false
+  allowed_unknown_values:
+    - unknown
+    - not_provided
+    - insufficient_evidence
+    - requires_user_confirmation
+  social_activity_policy:
+    linkedin_likes_reposts_comments: interest_only
+    can_support_resume_claims: false
+  blocked_claims_without_confirmation:
+    - production_scale
+    - team_leadership
+    - senior_title
+    - percentage_improvements
+    - cloud_orchestration
+    - fluent_english

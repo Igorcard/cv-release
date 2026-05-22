@@ -1,0 +1,14 @@
+{
+  "project_id": "project_weatherapi",
+  "name": "WeatherApi",
+  "start_date": "2025-07",
+  "end_date": "2025-07",
+  "associated_experience_ids": [],
+  "description": "Weather API integrated with OpenWeatherMap, reinforcing backend concepts with Joi, Helmet, Node.js, Express.js and Axios, including responsive frontend and automated tests.",
+  "role": "Backend developer",
+  "technologies": ["Node.js", "Express.js", "Joi", "Helmet", "Axios", "OpenWeatherMap"],
+  "outcomes": [],
+  "relevance_tags": ["backend", "api", "integration", "testing"],
+  "source_confidence": 0.86,
+  "requires_user_confirmation": ["repository_url", "test_framework", "deployment_url"]
+}

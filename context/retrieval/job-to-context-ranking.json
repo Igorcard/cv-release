@@ -1,0 +1,15 @@
+{
+  "candidate_id": "igor-cardoso-francolin",
+  "ranking_profiles": [
+    {
+      "job_type": "backend_node_apis",
+      "required_chunks": ["career_summary", "exp_accesys_backend", "skills_backend_node_sql", "project_weatherapi"],
+      "optional_chunks": ["project_toughts", "exp_accesys_delphi"]
+    },
+    {
+      "job_type": "delphi_desktop_legacy",
+      "required_chunks": ["exp_accesys_delphi", "project_ponto_de_venda"],
+      "optional_chunks": ["exp_accesys_backend", "skills_backend_node_sql"]
+    }
+  ]
+}

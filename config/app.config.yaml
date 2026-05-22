@@ -1,0 +1,4 @@
+app:
+  name: cv-release
+  candidate_id: igor-cardoso-francolin
+  default_profile_source: data/profile/base/resume.raw.md

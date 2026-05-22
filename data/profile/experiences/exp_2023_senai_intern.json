@@ -1,0 +1,16 @@
+{
+  "experience_id": "exp_2023_senai_intern",
+  "company": "SENAI Oscar Lucio Baldan",
+  "title": "Estagiario",
+  "start_date": "2023-02",
+  "end_date": "2023-07",
+  "location": "Monte Alto, Sao Paulo, Brasil",
+  "employment_type": "internship",
+  "summary": "Internship role listed on the public LinkedIn profile.",
+  "responsibilities": [],
+  "achievements": [],
+  "technologies": [],
+  "domains": ["internship"],
+  "source_confidence": 0.75,
+  "requires_user_confirmation": ["role_scope", "tools_used", "deliverables"]
+}

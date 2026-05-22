@@ -1,0 +1,6 @@
+{
+  "template_id": "ats-simple",
+  "ats_friendly": true,
+  "supports_pdf": true,
+  "max_pages_default": 2
+}

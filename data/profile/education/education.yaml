@@ -1,0 +1,27 @@
+education:
+  - education_id: edu_2022_2024_unip_ads
+    institution: Universidade Paulista (UNIP)
+    degree: Tecnologo em Analise e Desenvolvimento de Sistemas
+    field: Information Technology
+    start_year: 2022
+    end_year: 2024
+    location: Sao Paulo, Sao Paulo, Brazil
+  - education_id: edu_2022_unip_accounting_partial
+    institution: Universidade Paulista
+    degree: Bacharelado em Ciencias Contabeis
+    field: Business/Commerce, General
+    start_year: 2022
+    end_year: 2022
+    status: Concluido apenas 1 semestre
+  - education_id: edu_2019_2020_senai_electrician
+    institution: SENAI/SC - Servico Nacional de Aprendizagem Industrial
+    degree: Eletricista Industrial
+    field: Electrician
+    start_year: 2019
+    end_year: 2020
+  - education_id: edu_2018_2019_senai_machining
+    institution: SENAI/SC - Servico Nacional de Aprendizagem Industrial
+    degree: Mecanico de Usinagem Industrial
+    field: Torneiro
+    start_year: 2018
+    end_year: 2019

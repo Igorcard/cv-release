@@ -1,0 +1,50 @@
+{
+  "candidate_id": "igor-cardoso-francolin",
+  "skills": [
+    {
+      "name": "Node.js",
+      "level": "unknown",
+      "evidence_ids": [
+        "experience:exp_2025_present_accesys_backend_developer",
+        "project:project_weatherapi",
+        "project:project_toughts"
+      ]
+    },
+    {
+      "name": "Express.js",
+      "level": "unknown",
+      "evidence_ids": [
+        "experience:exp_2025_present_accesys_backend_developer",
+        "project:project_weatherapi",
+        "project:project_toughts"
+      ]
+    },
+    {
+      "name": "REST APIs",
+      "level": "unknown",
+      "evidence_ids": [
+        "experience:exp_2025_present_accesys_backend_developer",
+        "project:project_weatherapi"
+      ]
+    },
+    {
+      "name": "Delphi",
+      "level": "unknown",
+      "evidence_ids": [
+        "experience:exp_2024_2025_accesys_delphi_developer",
+        "project:project_ponto_de_venda"
+      ]
+    },
+    {
+      "name": "SQL Server",
+      "level": "unknown",
+      "evidence_ids": ["profile:about"],
+      "notes": "About mentions SQL Server; current role cites DBeaver without specifying engine."
+    },
+    {
+      "name": "Metabase",
+      "level": "unknown",
+      "evidence_ids": ["profile:about"]
+    }
+  ]
+}

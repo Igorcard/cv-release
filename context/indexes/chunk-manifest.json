@@ -1,0 +1,16 @@
+{
+  "candidate_id": "igor-cardoso-francolin",
+  "generated_at": "2026-05-22T11:19:00-03:00",
+  "chunks": [
+    { "chunk_id": "profile_identity", "file": "context/chunks/profile_identity.chunk.md", "type": "profile_identity" },
+    { "chunk_id": "career_summary", "file": "context/chunks/career_summary.chunk.md", "type": "career_summary" },
+    { "chunk_id": "exp_accesys_backend", "file": "context/chunks/exp_accesys_backend.chunk.md", "type": "experience" },
+    { "chunk_id": "exp_accesys_delphi", "file": "context/chunks/exp_accesys_delphi.chunk.md", "type": "experience" },
+    { "chunk_id": "exp_accesys_support_track", "file": "context/chunks/exp_accesys_support_track.chunk.md", "type": "experience" },
+    { "chunk_id": "exp_senai_intern", "file": "context/chunks/exp_senai_intern.chunk.md", "type": "experience" },
+    { "chunk_id": "project_weatherapi", "file": "context/chunks/project_weatherapi.chunk.md", "type": "project" },
+    { "chunk_id": "project_toughts", "file": "context/chunks/project_toughts.chunk.md", "type": "project" },
+    { "chunk_id": "project_ponto_de_venda", "file": "context/chunks/project_ponto_de_venda.chunk.md", "type": "project" },
+    { "chunk_id": "skills_backend_node_sql", "file": "context/chunks/skills_backend_node_sql.chunk.md", "type": "skills" }
+  ]
+}

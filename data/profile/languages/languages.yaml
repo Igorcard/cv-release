@@ -1,0 +1,9 @@
+languages:
+  - name: Portuguese
+    level: native_or_fluent
+    evidence: inferred_from_profile_language
+    requires_user_confirmation: true
+  - name: English
+    level: not_provided
+    evidence: none
+    requires_user_confirmation: true

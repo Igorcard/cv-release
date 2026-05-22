@@ -1,0 +1,52 @@
+technical_skills:
+  backend:
+    - name: Node.js
+      level: unknown
+      evidence_ids:
+        - experience:exp_2025_present_accesys_backend_developer
+        - project:project_weatherapi
+        - project:project_toughts
+    - name: Express.js
+      level: unknown
+      evidence_ids:
+        - experience:exp_2025_present_accesys_backend_developer
+        - project:project_weatherapi
+        - project:project_toughts
+    - name: REST APIs
+      level: unknown
+      evidence_ids:
+        - experience:exp_2025_present_accesys_backend_developer
+        - project:project_weatherapi
+  database:
+    - name: SQL Server
+      level: unknown
+      evidence_ids:
+        - profile:about
+      notes: About mentions SQL Server; current role mentions DBeaver without naming engine.
+    - name: MySQL
+      level: unknown
+      evidence_ids:
+        - project:project_ponto_de_venda
+    - name: DBeaver
+      level: unknown
+      evidence_ids:
+        - experience:exp_2025_present_accesys_backend_developer
+  desktop_legacy:
+    - name: Delphi
+      level: unknown
+      evidence_ids:
+        - experience:exp_2024_2025_accesys_delphi_developer
+        - project:project_ponto_de_venda
+    - name: FireDAC
+      level: unknown
+      evidence_ids:
+        - project:project_ponto_de_venda
+  tooling:
+    - name: Git/GitHub
+      level: unknown
+      evidence_ids:
+        - profile:about
+    - name: Metabase
+      level: unknown
+      evidence_ids:
+        - profile:about

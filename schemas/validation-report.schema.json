@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ValidationReport",
+  "type": "object",
+  "required": ["status", "blocking_errors", "warnings"],
+  "properties": {
+    "status": { "type": "string" },
+    "blocking_errors": { "type": "array" },
+    "warnings": { "type": "array" }
+  },
+  "additionalProperties": true
+}

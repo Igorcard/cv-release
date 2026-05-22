@@ -1,0 +1,38 @@
+certifications:
+  - name: Curso completo de APIs com Nodejs, Express + MongoDB, SQL
+    issuer: Udemy
+    issued_at: 2025-01
+    source_url: https://udemy.com/certificate/UC-a841fa2a-4067-45fd-b050-461034ae1ef0/
+  - name: Estrutura de Dados (Curso Completo)
+    issuer: Professor Isidro
+    issued_at: 2022-10
+  - name: Curso de Programacao em Linguagem C
+    issuer: GYN Cursos
+    issued_at: 2022-09
+  - name: PYTHON 3
+    issuer: Curso em Video
+    issued_at: 2022-08
+  - name: Administrando Banco de Dados
+    issuer: Fundacao Bradesco
+    issued_at: 2023-05
+    expires_at: 2023-07
+  - name: Introducao a Programacao Orientada a Objetos
+    issuer: Fundacao Bradesco
+    issued_at: 2023-03
+    expires_at: 2023-05
+  - name: Linguagem de Programacao C# - Avancado
+    issuer: Fundacao Bradesco
+    issued_at: 2023-03
+    expires_at: 2023-05
+  - name: Linguagem de Programacao C# - Basico
+    issuer: Fundacao Bradesco
+    issued_at: 2022-03
+    expires_at: 2023-05
+  - name: Linguagem de Modelagem Unificada (UML)
+    issuer: Fundacao Bradesco
+    issued_at: 2022-02
+    expires_at: 2023-01
+  - name: Fundamentos de Logica de Programacao
+    issuer: Fundacao Bradesco
+    issued_at: 2022-09
+    expires_at: 2022-10

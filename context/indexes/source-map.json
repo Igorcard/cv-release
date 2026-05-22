@@ -1,0 +1,15 @@
+{
+  "candidate_id": "igor-cardoso-francolin",
+  "sources": [
+    { "source_id": "profile:identity", "file": "data/profile/base/personal-info.json", "type": "profile" },
+    { "source_id": "profile:summary", "file": "data/profile/base/professional-summary.md", "type": "profile" },
+    { "source_id": "experience:exp_2025_present_accesys_backend_developer", "file": "data/profile/experiences/exp_2025_present_accesys_backend_developer.json", "type": "experience" },
+    { "source_id": "experience:exp_2024_2025_accesys_delphi_developer", "file": "data/profile/experiences/exp_2024_2025_accesys_delphi_developer.json", "type": "experience" },
+    { "source_id": "experience:exp_2024_accesys_technical_support", "file": "data/profile/experiences/exp_2024_accesys_technical_support.json", "type": "experience" },
+    { "source_id": "experience:exp_2023_2024_accesys_it_support_intern", "file": "data/profile/experiences/exp_2023_2024_accesys_it_support_intern.json", "type": "experience" },
+    { "source_id": "experience:exp_2023_senai_intern", "file": "data/profile/experiences/exp_2023_senai_intern.json", "type": "experience" },
+    { "source_id": "project:project_weatherapi", "file": "data/profile/projects/project_weatherapi.json", "type": "project" },
+    { "source_id": "project:project_toughts", "file": "data/profile/projects/project_toughts.json", "type": "project" },
+    { "source_id": "project:project_ponto_de_venda", "file": "data/profile/projects/project_ponto_de_venda.json", "type": "project" }
+  ]
+}

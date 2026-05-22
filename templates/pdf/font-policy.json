@@ -1,0 +1,5 @@
+{
+  "primary_font": "Arial",
+  "fallback_fonts": ["Helvetica", "sans-serif"],
+  "embed_fonts": false
+}

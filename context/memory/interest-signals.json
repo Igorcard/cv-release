@@ -1,0 +1,17 @@
+{
+  "candidate_id": "igor-cardoso-francolin",
+  "signals": [
+    {
+      "topic": "Node.js scalability",
+      "source": "linkedin_activity",
+      "claim_type": "interest_only",
+      "can_support_resume_claims": false
+    },
+    {
+      "topic": "API security and exposed environment files",
+      "source": "linkedin_activity",
+      "claim_type": "interest_only",
+      "can_support_resume_claims": false
+    }
+  ]
+}

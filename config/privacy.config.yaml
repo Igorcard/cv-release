@@ -1,0 +1,8 @@
+privacy:
+  public_outputs:
+    include_email: true
+    include_phone: false
+  logs:
+    store_llm_prompts: true
+    redact_email: false
+    redact_phone: true

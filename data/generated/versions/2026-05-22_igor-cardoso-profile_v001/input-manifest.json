@@ -1,0 +1,12 @@
+{
+  "version_id": "2026-05-22_igor-cardoso-profile_v001",
+  "candidate_id": "igor-cardoso-francolin",
+  "created_at": "2026-05-22T11:19:00-03:00",
+  "inputs": [
+    "data/profile/base/resume.raw.md",
+    "data/profile/base/resume.normalized.json",
+    "context/canonical/candidate-profile.canonical.json",
+    "context/indexes/source-map.json"
+  ],
+  "status": "profile_structure_initialized"
+}

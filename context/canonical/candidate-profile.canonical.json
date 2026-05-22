@@ -1,0 +1,23 @@
+{
+  "candidate_id": "igor-cardoso-francolin",
+  "identity": {
+    "name": "Igor Cardoso",
+    "headline": "Developer | Node.js | SQL",
+    "location": "Monte Alto, Sao Paulo, Brazil",
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/igor-cardoso-francolin/",
+      "github": "https://github.com/Igorcard"
+    }
+  },
+  "positioning": {
+    "primary_target": "Backend developer focused on Node.js, Express.js, REST APIs and SQL/database work",
+    "secondary_target": "Delphi developer for legacy desktop systems and database-connected applications",
+    "avoid_claims": ["senior", "cloud expert", "team lead", "large-scale production owner"]
+  },
+  "source_files": [
+    "data/profile/base/personal-info.json",
+    "data/profile/base/professional-summary.md",
+    "data/profile/base/resume.normalized.json"
+  ],
+  "truth_policy_file": "data/profile/constraints/truth-policy.yaml"
+}

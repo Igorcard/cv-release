@@ -1,0 +1,53 @@
+{
+  "candidate_id": "igor-cardoso-francolin",
+  "timeline": [
+    {
+      "start_date": "2025-04",
+      "end_date": null,
+      "type": "experience",
+      "title": "Desenvolvedor De Back End",
+      "organization": "Accesys Solutions",
+      "source_id": "experience:exp_2025_present_accesys_backend_developer"
+    },
+    {
+      "start_date": "2024-04",
+      "end_date": "2025-04",
+      "type": "experience",
+      "title": "Desenvolvedor Delphi",
+      "organization": "Accesys Solutions",
+      "source_id": "experience:exp_2024_2025_accesys_delphi_developer"
+    },
+    {
+      "start_date": "2024-02",
+      "end_date": "2024-04",
+      "type": "experience",
+      "title": "Suporte Tecnico",
+      "organization": "Accesys Solutions",
+      "source_id": "experience:exp_2024_accesys_technical_support"
+    },
+    {
+      "start_date": "2023-07",
+      "end_date": "2024-02",
+      "type": "experience",
+      "title": "Estagiario De Suporte De Informatica",
+      "organization": "Accesys Solutions",
+      "source_id": "experience:exp_2023_2024_accesys_it_support_intern"
+    },
+    {
+      "start_date": "2023-02",
+      "end_date": "2023-07",
+      "type": "experience",
+      "title": "Estagiario",
+      "organization": "SENAI Oscar Lucio Baldan",
+      "source_id": "experience:exp_2023_senai_intern"
+    },
+    {
+      "start_date": "2022",
+      "end_date": "2024",
+      "type": "education",
+      "title": "Tecnologo em Analise e Desenvolvimento de Sistemas",
+      "organization": "Universidade Paulista",
+      "source_id": "education:edu_2022_2024_unip_ads"
+    }
+  ]
+}

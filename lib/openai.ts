@@ -1,4 +1,5 @@
 import { normalizeGeneratedOutput, resumeJsonSchema } from "@/lib/validation";
+import { buildProfileContextForPrompt } from "@/lib/profile-context";
 import type { GeneratedResumeOutput, GenerateRequest } from "@/lib/types";
 
 function extractOutputText(payload: unknown): string {
@@ -30,11 +31,12 @@ function parseJsonObject(text: string) {
   }
 }
 
-function buildPrompt(request: GenerateRequest) {
+async function buildPrompt(request: GenerateRequest) {
   const languageRule =
     request.language === "en"
       ? "Write the resume in English because the job or user preference requires English."
       : "Escreva em português do Brasil.";
+  const profileContext = await buildProfileContextForPrompt();
 
   return `
 ${languageRule}
@@ -50,6 +52,11 @@ Tarefa:
 6. Quando algo estiver ausente, use "não fornecido" ou inclua em missingInformation.
 7. Use verbos de ação e transforme responsabilidades em realizações apenas quando houver base textual suficiente.
 8. Evite exageros e keyword stuffing.
+9. Use o contexto estruturado abaixo como fonte prioritária para selecionar experiências, projetos, skills e gaps.
+10. Todo conteúdo final deve respeitar source_ids, evidence-index e truth-policy.
+
+Contexto estruturado disponível:
+${profileContext}
 
 Dados do LinkedIn/perfil:
 ${request.linkedinData}
@@ -69,7 +76,7 @@ export async function generateWithOpenAI(request: GenerateRequest): Promise<Gene
   if (!apiKey) throw new Error("OPENAI_API_KEY não configurada.");
 
   const model = process.env.OPENAI_MODEL || "gpt-4.1-mini";
-  const prompt = buildPrompt(request);
+  const prompt = await buildPrompt(request);
   const signal = AbortSignal.timeout(20000);
 
   const body = {

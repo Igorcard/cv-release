@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CandidateProfile",
+  "type": "object",
+  "required": ["candidate_id"],
+  "properties": {
+    "candidate_id": { "type": "string" },
+    "identity": { "type": "object" },
+    "source_files": { "type": "array", "items": { "type": "string" } }
+  },
+  "additionalProperties": true
+}

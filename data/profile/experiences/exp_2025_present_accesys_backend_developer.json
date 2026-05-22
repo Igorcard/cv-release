@@ -1,0 +1,27 @@
+{
+  "experience_id": "exp_2025_present_accesys_backend_developer",
+  "company": "Accesys Solutions",
+  "title": "Desenvolvedor De Back End",
+  "start_date": "2025-04",
+  "end_date": null,
+  "location": "Monte Alto, Sao Paulo, Brasil",
+  "employment_type": "not_provided",
+  "summary": "Backend development role focused on APIs and integrations using Node.js with Express and database management with DBeaver.",
+  "responsibilities": [
+    {
+      "text": "Desenvolvimento de APIs e integracoes utilizando NodeJS com Express.",
+      "skills": ["Node.js", "Express.js", "REST APIs", "integrations"],
+      "source": "data/profile/base/resume.raw.md#experience-accesys-backend"
+    },
+    {
+      "text": "Gerenciamento de banco de dados com DBeaver.",
+      "skills": ["DBeaver", "database"],
+      "source": "data/profile/base/resume.raw.md#experience-accesys-backend"
+    }
+  ],
+  "achievements": [],
+  "technologies": ["Node.js", "Express.js", "DBeaver"],
+  "domains": ["backend", "api_integrations", "database_administration"],
+  "source_confidence": 0.9,
+  "requires_user_confirmation": ["database_engine", "production_metrics", "team_size", "employment_type"]
+}

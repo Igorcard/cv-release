@@ -1,0 +1,7 @@
+{
+  "candidate_id": "igor-cardoso-francolin",
+  "status": "not_generated",
+  "profile_chunks_path": "context/embeddings/profile-chunks/",
+  "job_descriptions_path": "context/embeddings/job-descriptions/",
+  "notes": "Embedding files are intentionally absent until a vectorization step is implemented."
+}

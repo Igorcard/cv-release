@@ -1,0 +1,16 @@
+{
+  "candidate_id": "igor-cardoso-francolin",
+  "chunks": [
+    "profile_identity",
+    "career_summary",
+    "exp_accesys_backend",
+    "exp_accesys_delphi",
+    "exp_accesys_support_track",
+    "exp_senai_intern",
+    "project_weatherapi",
+    "project_toughts",
+    "project_ponto_de_venda",
+    "skills_backend_node_sql"
+  ],
+  "default_strategy": "prefer backend Node.js/API evidence, then relevant projects, then secondary Delphi evidence"
+}

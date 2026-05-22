@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AtsScore",
+  "type": "object",
+  "required": ["overall_score", "categories", "risks"],
+  "properties": {
+    "overall_score": { "type": "number", "minimum": 0, "maximum": 100 },
+    "categories": { "type": "object" },
+    "risks": { "type": "array" }
+  },
+  "additionalProperties": true
+}
