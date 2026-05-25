@@ -4,6 +4,7 @@ out
 dist
 build
 .env
+.envOpenIa
 .env.local
 .vercel
 npm-debug.log*

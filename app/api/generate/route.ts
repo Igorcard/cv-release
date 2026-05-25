@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
+import { generateWithAI } from "@/lib/ai";
 import { buildFallbackResume } from "@/lib/fallback";
-import { generateWithOpenAI } from "@/lib/openai";
 import { checkRateLimit, getClientKey } from "@/lib/rate-limit";
 import { MAX_GENERATE_BODY_CHARS, parseGenerateRequest } from "@/lib/validation";
 
@@ -41,16 +41,16 @@ export async function POST(request: Request) {
     const parsed = parseGenerateRequest(body);
 
     try {
-      const output = await generateWithOpenAI(parsed);
-      return NextResponse.json({ output, source: "openai" });
+      const output = await generateWithAI(parsed);
+      return NextResponse.json({ output, source: "cursor" });
     } catch (error) {
       const providerMessage = error instanceof Error ? error.message : "Falha no provedor de IA.";
       return NextResponse.json({
         output: buildFallbackResume(parsed),
         source: "fallback",
-        warning: process.env.OPENAI_API_KEY
-          ? `Falha na geração com IA: ${providerMessage} Foi gerada uma versão conservadora para revisão.`
-          : "OPENAI_API_KEY não configurada. Foi gerada uma versão conservadora para revisão."
+        warning: process.env.AI_API_KEY
+          ? `Falha na geração com o provedor de IA configurado: ${providerMessage} Foi gerada uma versão conservadora para revisão.`
+          : "AI_API_KEY não configurada. Foi gerada uma versão conservadora para revisão."
       });
     }
   } catch (error) {
